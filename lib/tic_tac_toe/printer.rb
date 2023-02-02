@@ -3,7 +3,7 @@ module TicTacToe
     MOVES = 'Enter [0-8]:'.freeze
     GAME_OVER = 'Game over'.freeze
     INVALID_MOVE = 'Invalid Move! Please Try Again'.freeze
-    CLEAR = `clear`.freeze
+    GREETINGS = 'Welcome to Tic-Tac-Toe'.freeze
 
     def print_moves
       puts MOVES
@@ -21,8 +21,8 @@ module TicTacToe
       puts INVALID_MOVE
     end
 
-    def clear_console
-      puts CLEAR
+    def print_greetings
+      puts GREETINGS
     end
   end
 end

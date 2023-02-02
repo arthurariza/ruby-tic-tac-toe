@@ -14,8 +14,9 @@ module TicTacToe
     end
 
     def start_game
+      print_greetings
+
       until @board.game_over? || @board.tie?
-        clear_console
         print_board(@board.board)
         print_moves
 
