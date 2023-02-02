@@ -11,7 +11,3 @@ We would also like to add some new features like:
 - Allow the choice of different game types (human vs. human, computer vs. computer and human vs. computer) to be possible.
 
 Can you help us finish the game?
-
-Important:
-- You will have 7 days to do as much as you can. We know that time is short and very difficult to do everything. But do as much as you can;
-- After completion send us a git bundle to raphael@ecoportal.co.nz
