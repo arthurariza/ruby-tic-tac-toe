@@ -34,5 +34,12 @@ module TicTacToe
     def print_cpu_difficulty_options
       puts CPU_DIFFICULTY
     end
+
+    def print_menu_options
+      puts 'Welcome to Tic-tac-toe'.freeze
+      puts 'Press (1) to play Human Vs Human'.freeze
+      puts 'Press (2) to play Human Vs Cpu'.freeze
+      puts 'Press (3) to play Cpu Vs Cpu'.freeze
+    end
   end
 end

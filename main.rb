@@ -1,4 +1,3 @@
-require_relative './lib/tic_tac_toe/game'
+require_relative './lib/tic_tac_toe/main'
 
-game = TicTacToe::Game.new
-game.start_game
+TicTacToe::Main.play

@@ -9,23 +9,16 @@ module TicTacToe
 
     def initialize
       @board = Board.new
-      @human = Human.new('O')
-      @cpu = Cpu.new('X')
     end
 
-    def start_game
-      print_greetings
+    private
 
-      until @board.game_over? || @board.tie?
-        print_board(@board.board)
-        print_moves
+    def game_over_or_tie
+      @board.game_over? || @board.tie?
+    end
 
-        @human.play(@board.board)
-
-        @cpu.play(@board, @human.mark) if !@board.game_over? && !@board.tie?
-      end
-
-      print_game_over
+    def not_game_over_and_tie
+      !@board.game_over? && !@board.tie?
     end
   end
 end
