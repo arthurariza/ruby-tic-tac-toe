@@ -4,6 +4,8 @@ module TicTacToe
     GAME_OVER = 'Game over'.freeze
     INVALID_MOVE = 'Invalid Move! Please Try Again'.freeze
     GREETINGS = 'Welcome to Tic-Tac-Toe'.freeze
+    INVALID_OPTION = 'Invalid Option! Please Try Again'.freeze
+    CPU_DIFFICULTY = 'Cpu difficulty: Easy(1) Hard(2)'.freeze
 
     def print_moves
       puts MOVES
@@ -21,8 +23,16 @@ module TicTacToe
       puts INVALID_MOVE
     end
 
+    def print_invalid_option
+      puts INVALID_OPTION
+    end
+
     def print_greetings
       puts GREETINGS
+    end
+
+    def print_cpu_difficulty_options
+      puts CPU_DIFFICULTY
     end
   end
 end
