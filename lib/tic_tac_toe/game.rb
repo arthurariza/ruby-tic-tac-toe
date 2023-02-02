@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './printer'
 require_relative './board'
 require_relative './human'

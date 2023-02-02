@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 module TicTacToe
   module Printer
-    MOVES = 'Enter [0-8]:'.freeze
-    GAME_OVER = 'Game over'.freeze
-    INVALID_MOVE = 'Invalid Move! Please Try Again'.freeze
-    GREETINGS = 'Welcome to Tic-Tac-Toe'.freeze
-    INVALID_OPTION = 'Invalid Option! Please Try Again'.freeze
-    CPU_DIFFICULTY = 'Cpu difficulty: Easy(1) Hard(2)'.freeze
+    MOVES = 'Enter [0-8]:'
+    GAME_OVER = 'Game over'
+    INVALID_MOVE = 'Invalid Move! Please Try Again'
+    GREETINGS = 'Welcome to Tic-Tac-Toe'
+    INVALID_OPTION = 'Invalid Option! Please Try Again'
+    CPU_DIFFICULTY = 'Cpu difficulty: Easy(1) Hard(2)'
 
     def print_moves
       puts MOVES
@@ -36,10 +38,10 @@ module TicTacToe
     end
 
     def print_menu_options
-      puts 'Welcome to Tic-tac-toe'.freeze
-      puts 'Press (1) to play Human Vs Human'.freeze
-      puts 'Press (2) to play Human Vs Cpu'.freeze
-      puts 'Press (3) to play Cpu Vs Cpu'.freeze
+      puts 'Welcome to Tic-tac-toe'
+      puts 'Press (1) to play Human Vs Human'
+      puts 'Press (2) to play Human Vs Cpu'
+      puts 'Press (3) to play Cpu Vs Cpu'
     end
   end
 end
