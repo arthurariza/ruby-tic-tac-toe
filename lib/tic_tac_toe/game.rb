@@ -11,6 +11,10 @@ module TicTacToe
       @board = Board.new
     end
 
+    def start_game
+      raise 'Implement this method!'
+    end
+
     private
 
     def game_over_or_tie

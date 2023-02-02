@@ -6,6 +6,10 @@ module TicTacToe
       @mark = mark
     end
 
+    def play
+      raise 'Implement this method!'
+    end
+
     private
 
     def valid_play?(spot, board)
